@@ -6,45 +6,105 @@ body{
 *{
     margin: 0
 }
-
-
+.line{
+    margin-top:3em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 30px;
+    border:none;
+    border-top: 5px solid #f05f44;
+}
 .header h3{
     text-align: center;
     font-family: 'Dosis', sans-serif;
     font-size: 1.6em;
     margin:0.7em 0em 0.2em 0em;
-    color: palevioletred
+    color: palevioletred;
+    margin-top:0.4em
 }
-
 .header h1{
     text-align: center;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 3em;
     letter-spacing: 0.07em;
-    color: rgb(120, 42, 42)
+    color: rgb(120, 42, 42);
+    margin-top: 2em
 }
-
+.line2{
+    margin-top:3em;
+    max-width: 30px;
+    border:none;
+    border-top: 5px solid #f05f44;
+}
+.talk, .swiper-container{
+    margin-left:9%
+}
+.talk h3{
+    text-align: left;
+    margin-top:0.4em;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.6em;
+}
+.talk h1{
+    text-align: left;
+    text-transform: capitalize;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 3em;
+    letter-spacing: 0.07em;
+    margin-top:0.5em
+}
+.talk p{
+    font-family: cursive;
+    font-size: 1.2em;
+    margin-top:1em;
+    width:55%;
+    color:#666666
+}
+.swiper-container{
+    margin-top: 2em;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.swiper-slide{
+    margin:0.5em;
+    background-color: white;
+    width:270px;
+    text-align: center
+}
+.swiper-slide p, .swiper-slide h6 {
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+}
+.swiper-slide h6 {
+    font-size: 1.5em
+}
+.swiper-slide p{
+    font-size: 1.2em
+}
+.swiper-slide img{
+    width: 270px;
+    height: 300px;
+    background: white;
+    margin-bottom: 1.5em
+}
 .nav{
     text-align: right;
     width:100%;
-}
-#toggle{
-    display: none
-}
-label{  
-    display: none
 }
 .menu{
     text-transform: uppercase;
     margin:2em 0em;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500;
-    font-size: 1.2em
+    font-size: 1em
 }
 .menu a{
-    margin:0em 0.5em;
+    margin:0em 0.4em;
     display: inline;
-    padding:0.6em 1em;
+    padding:0.6em 0.8em;
     color:black;
     background-color: #F8F8F8;
     text-decoration: none
@@ -56,7 +116,7 @@ label{
     transition-timing-function: ease-in-out
 }
 .menu a:last-child{
-    margin-right: 2em
+    margin-right: 9em
 }
 .container{
     display: flex;
@@ -81,7 +141,7 @@ label{
     text-align: center;
     cursor: pointer;
 }
-img{
+.container img{
     width:300px;
     height: 300px;
     margin-bottom: 1.5em

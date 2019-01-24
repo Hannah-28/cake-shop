@@ -1,7 +1,20 @@
+.talk,.swiper-container{
+    margin-left:12%
+}
+.talk p{
+    font-size: 1em;
+    width:70%;
+}
 .menu{
-    font-size: 0.9em
+    font-size: 0.8em
 }
 .menu a{
-    margin:0em 0.5em;
+    margin:0em 0.3em;
     padding:0.6em 0.8em;
+}
+.menu a:last-child{
+    margin-right: 5em
+}
+.swiper-container{
+    justify-content: center
 }
