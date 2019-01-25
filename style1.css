@@ -1,5 +1,8 @@
-.talk,.swiper-container{
+.talk{
     margin-left:12%
+}
+.swiper-container{
+    margin-left: 0
 }
 .talk p{
     font-size: 1em;
